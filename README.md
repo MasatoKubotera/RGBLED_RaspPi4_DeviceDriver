@@ -16,7 +16,7 @@ Click [here](https://youtu.be/xQW8-FNuboo) for a video of the class.<br>
 ---
 ## Movie
 
-[![デモ動画](https://img.youtube.com/vi//maxresdefault.jpg)](https://youtu.be/)
+[![デモ動画](https://img.youtube.com/vi/mpM8JIEJu3U/maxresdefault.jpg)](https://youtu.be/mpM8JIEJu3U)
 
 Click the image to jump to Youtube.<br>
 (画像をクリックするとYoutubeに飛びます.)
@@ -33,9 +33,6 @@ Click the image to jump to Youtube.<br>
 
 ---
 ## Circuit
-- Circuit diagram(回路図)
-<img src="" width="320px">
-
 - Wiring diagram (配線図)
 <img src="https://user-images.githubusercontent.com/53966390/100541151-35d32000-3285-11eb-9579-d510d458697c.jpg" width="320px">
 
@@ -67,7 +64,7 @@ Enter the initial of the color you want to light in `dev / RGB_LED0` and it will
 (点灯させたい色の頭文字を`dev/RGB_LED0 `に入力すると3秒間点灯します.)
 
 1.  Red<br>
-  `$ echo R > /dev/RGB_LED0` or `$ echo R > /dev/RGBLED0`
+  `$ echo R > /dev/RGB_LED0` or `$ echo r > /dev/RGBLED0`
   <img src="https://user-images.githubusercontent.com/53966390/100541013-6a92a780-3284-11eb-9e51-569623416ff1.png" width="320px">
 
 2.  Green<br>
