@@ -16,7 +16,7 @@ Click [here](https://youtu.be/xQW8-FNuboo) for a video of the class.<br>
 ---
 ## Movie
 
-[![デモ動画](https://img.youtube.com/vi/mpM8JIEJu3U/maxresdefault.jpg)](https://youtu.be/mpM8JIEJu3U)
+[![デモ動画](https://img.youtube.com/vi/NzzeRfFYlzE/maxresdefault.jpg)](https://youtu.be/NzzeRfFYlzE)
 
 Click the image to jump to Youtube.<br>
 (画像をクリックするとYoutubeに飛びます.)
@@ -64,31 +64,31 @@ Enter the initial of the color you want to light in `dev / RGB_LED0` and it will
 (点灯させたい色の頭文字を`dev/RGB_LED0 `に入力すると3秒間点灯します.)
 
 1.  Red<br>
-  `$ echo R > /dev/RGB_LED0` or `$ echo r > /dev/RGBLED0`
+  `$ echo R > /dev/RGB_LED0` or `$ echo r > /dev/RGB_LED0`
   <img src="https://user-images.githubusercontent.com/53966390/100541013-6a92a780-3284-11eb-9e51-569623416ff1.png" width="320px">
 
 2.  Green<br>
-  `$ echo G > /dev/RGB_LED0` or `$ echo g > /dev/RGBLED0`
+  `$ echo G > /dev/RGB_LED0` or `$ echo g > /dev/RGB_LED0`
   <img src="https://user-images.githubusercontent.com/53966390/100541017-6c5c6b00-3284-11eb-953c-b9fd230c7838.png" width="320px">
 
 3.  Brue<br>
-  `$ echo B > /dev/RGB_LED0` or `$ echo b > /dev/RGBLED0`
+  `$ echo B > /dev/RGB_LED0` or `$ echo b > /dev/RGB_LED0`
   <img src="https://user-images.githubusercontent.com/53966390/100541020-6d8d9800-3284-11eb-8be1-9aa364b14689.png" width="320px">
 
 4.  Yellow<br>
-  `$ echo Y > /dev/RGB_LED0` or `$ echo y > /dev/RGBLED0`
+  `$ echo Y > /dev/RGB_LED0` or `$ echo y > /dev/RGB_LED0`
   <img src="https://user-images.githubusercontent.com/53966390/100541021-6ebec500-3284-11eb-9bc2-84ff7a381d82.png" width="320px">
 
 5.  Cyan<br>
-  `$ echo C > /dev/RGB_LED0` or `$ echo c > /dev/RGBLED0`
+  `$ echo C > /dev/RGB_LED0` or `$ echo c > /dev/RGB_LED0`
   <img src="https://user-images.githubusercontent.com/53966390/100541023-6f575b80-3284-11eb-8c4d-d965b76742ac.png" width="320px">
 
 6.  Magenta<br>
-  `$ echo M > /dev/RGB_LED0` or `$ echo m > /dev/RGBLED0`
+  `$ echo M > /dev/RGB_LED0` or `$ echo m > /dev/RGB_LED0`
   <img src="https://user-images.githubusercontent.com/53966390/100541024-70888880-3284-11eb-8894-0653a3fc2229.png" width="320px">
 
 7. White<br>
-  `$ echo W > /dev/RGB_LED0` or `$ echo w > /dev/RGBLED0`
+  `$ echo W > /dev/RGB_LED0` or `$ echo w > /dev/RGB_LED0`
   <img src="https://user-images.githubusercontent.com/53966390/100541011-66ff2080-3284-11eb-9beb-31c4be142489.png" width="320px">
 
 ---
