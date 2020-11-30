@@ -33,9 +33,12 @@ Click the image to jump to Youtube.<br>
 
 ---
 ## Circuit
+- Circuit diagram (回路図)
+<img src="https://user-images.githubusercontent.com/53966390/100611094-21aa2400-3354-11eb-8653-4ce185c9896e.png" width="320px">
+
+
 - Wiring diagram (配線図)
 <img src="https://user-images.githubusercontent.com/53966390/100541151-35d32000-3285-11eb-9579-d510d458697c.jpg" width="320px">
-
 
 - GPIO pin to connect (接続するGPIOピン)
   |No.|Name|CableColor|GPIO|PinNumber|
