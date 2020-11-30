@@ -44,8 +44,8 @@ Click the image to jump to Youtube.<br>
   |No.|Name|CableColor|GPIO|PinNumber|
   |---|---|---|---|---|
   |1|Red LED|Red|GPIO23|16|
-  |2|GND|Black||20|
-  |3|Green LED|Green|GPIO24|18|
+  |2|Green LED|Green|GPIO24|18|
+  |3|GND|Black||20|  
   |4|Blue LED|Blue|GPIO25|22|
 
 Check [here](https://www.raspberrypi.org/documentation/usage/gpio/README.md) for GPIO and pin numbers.<br>
