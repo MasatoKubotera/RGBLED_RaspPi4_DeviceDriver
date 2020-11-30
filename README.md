@@ -45,8 +45,8 @@ Click the image to jump to Youtube.<br>
   |---|---|---|---|---|
   |1|Red LED|Red|GPIO23|16|
   |2|GND|Black||20|
-  |3|Blue LED|Blue|GPIO24|18|
-  |4|Green LED|Green|GPIO25|22|
+  |3|Green LED|Green|GPIO24|18|
+  |4|Blue LED|Blue|GPIO25|22|
 
 Check [here](https://www.raspberrypi.org/documentation/usage/gpio/README.md) for GPIO and pin numbers.<br>
 (GPIO・ピン番号については[こちら](https://www.raspberrypi.org/documentation/usage/gpio/README.md)で確認してください．)
