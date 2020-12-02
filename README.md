@@ -96,4 +96,4 @@ Enter the initial of the color you want to light in `dev / RGB_LED0` and it will
 
 ---
 ## License
-[GNU General Public License v3.0](https://github.com/MasatoKubotera/RGBLED_RaspPi4_DeviceDriver/blob/master/LICENSE)
+[GNU General Public License v3.0](https://github.com/MasatoKubotera/RGBLED_RaspPi4_DeviceDriver/blob/master/COPYING)
