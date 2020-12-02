@@ -29,6 +29,19 @@ static volatile u32 *gpio_base = NULL;
 
 static unsigned int LED_Pins[LED_Num] = { Red_LED_Pin, Green_LED_Pin, Blue_LED_Pin};
 
+void RGB_write(int r, int g, int b){
+	if(r == 1)
+		gpio_base[7] = 1 << Red_LED_Pin;
+
+	if(g == 1)
+		gpio_base[7] = 1 << Green_LED_Pin;
+
+	if(b == 1)
+		gpio_base[7] = 1 << Blue_LED_Pin;
+
+	msleep(LED_Time);
+}
+
 static ssize_t led_write(struct file* filp, const char* buf, size_t count, loff_t* pos)
 {
 	char character;
@@ -37,46 +50,27 @@ static ssize_t led_write(struct file* filp, const char* buf, size_t count, loff_
 	if(copy_from_user(&character, buf, sizeof(char)))
 		return -EFAULT;
 	
-	if(character == 'r' || character == 'R'){
-		//赤
-		gpio_base[7] = 1 << Red_LED_Pin;
-		msleep(LED_Time);
-	}
-	else if(character == 'g' || character == 'G'){
-		//緑
-		gpio_base[7] = 1 << Green_LED_Pin;
-		msleep(LED_Time);
-	}
-	else if(character == 'b' || character == 'B'){ 
-		//青
-		gpio_base[7] = 1 << Blue_LED_Pin;
-		msleep(LED_Time);
-	}
-	else if(character == 'y' || character == 'Y'){
-		//黄
-		gpio_base[7] = 1 << Red_LED_Pin;
-		gpio_base[7] = 1 << Green_LED_Pin;
-		msleep(LED_Time);
-	}
-	else if(character == 'c' || character == 'C'){
-		//シアン
-		gpio_base[7] = 1 << Green_LED_Pin;
-		gpio_base[7] = 1 << Blue_LED_Pin;
-		msleep(LED_Time);
-	}
-	else if(character == 'm' || character == 'M'){
-		//マゼンタ
-		gpio_base[7] = 1 << Red_LED_Pin;
-		gpio_base[7] = 1 << Blue_LED_Pin;
-		msleep(LED_Time);
-	}
-	else if(character == 'w' || character == 'W'){
-		//白
-		gpio_base[7] = 1 << Red_LED_Pin;
-		gpio_base[7] = 1 << Green_LED_Pin;
-		gpio_base[7] = 1 << Blue_LED_Pin;
-		msleep(LED_Time);
-	}
+	if(character == 'r' || character == 'R')
+		RGB_write( 1, 0, 0); //赤
+	
+	else if(character == 'g' || character == 'G')
+		RGB_write( 0, 1, 0); //緑
+	
+	else if(character == 'b' || character == 'B')
+		RGB_write( 0, 0, 1); //青
+	
+	else if(character == 'y' || character == 'Y')
+		RGB_write( 1, 1, 0); //黄
+	
+	else if(character == 'c' || character == 'C')
+		RGB_write( 0, 1, 1); //シアン
+	
+	else if(character == 'm' || character == 'M')
+		RGB_write( 1, 0, 1); //マゼンタ
+
+	else if(character == 'w' || character == 'W')
+		RGB_write( 1, 1, 1); //白
+
 	else{	
 		//全LEDを消灯
 		for(i = 0; i < LED_Num; i++)
