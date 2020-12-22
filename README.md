@@ -72,11 +72,11 @@ Enter the initial of the color you want to light in `dev / RGB_LED0` and it will
 
 2.  Green<br>
   `$ echo G > /dev/RGB_LED0` or `$ echo g > /dev/RGB_LED0`
-  <img src="https://user-images.githubusercontent.com/53966390/100541017-6c5c6b00-3284-11eb-953c-b9fd230c7838.png" width="320px">
+  <img src="https://user-images.githubusercontent.com/53966390/100541020-6d8d9800-3284-11eb-8be1-9aa364b14689.png" width="320px">
 
 3.  Brue<br>
   `$ echo B > /dev/RGB_LED0` or `$ echo b > /dev/RGB_LED0`
-  <img src="https://user-images.githubusercontent.com/53966390/100541020-6d8d9800-3284-11eb-8be1-9aa364b14689.png" width="320px">
+  <img src="https://user-images.githubusercontent.com/53966390/100541017-6c5c6b00-3284-11eb-953c-b9fd230c7838.png" width="320px">
 
 4.  Yellow<br>
   `$ echo Y > /dev/RGB_LED0` or `$ echo y > /dev/RGB_LED0`
