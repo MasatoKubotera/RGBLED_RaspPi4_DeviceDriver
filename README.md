@@ -95,5 +95,12 @@ Enter the initial of the color you want to light in `dev / RGB_LED0` and it will
   <img src="https://user-images.githubusercontent.com/53966390/100541011-66ff2080-3284-11eb-9beb-31c4be142489.png" width="320px">
 
 ---
+## Kernel module - uninstall
+```
+$ sudo rmmod RGB_LED
+$ make clean
+```
+
+---
 ## License
 [GNU General Public License v3.0](https://github.com/MasatoKubotera/RGBLED_RaspPi4_DeviceDriver/blob/master/COPYING)
