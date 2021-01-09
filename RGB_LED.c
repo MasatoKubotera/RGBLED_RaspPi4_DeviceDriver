@@ -2,7 +2,7 @@
     RGB_LED.c
     Device driver that lights in a specific color using RGB LED.
 	
-    Copyright (C) 2020  Masato Kubotera
+    Copyright (C) 2020  Masato Kubotera & Ryuichi Ueda
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
